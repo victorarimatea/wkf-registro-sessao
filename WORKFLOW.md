@@ -1,6 +1,6 @@
 # WORKFLOW.md — Registro de Sessão de Trabalho
 
-**Versão:** v1.0 — 2026-06-02
+**Versão:** v1.1 — 2026-06-04
 **Status:** ativo
 **Responsável:** Victor Leonardo Arimatea Queiroz — Diretor de Transformação Digital
 **Repositório:** workflow-registro-sessao (W03)
@@ -81,9 +81,27 @@ Um relatório de sessão bem-sucedido satisfaz todos os critérios abaixo:
 | 0 | Identificação da sessão como relevante | Humano ou Claude | Manual | Estado da sessão ao final | Decisão de registrar |
 | 1 | Leitura do contexto da sessão | Claude | Manual | Histórico da conversa | Compreensão do que foi feito |
 | 2 | Redação do relatório narrativo | Claude | Manual | Contexto da sessão | Documento .md com estrutura obrigatória |
-| 3 | Revisão pelo responsável | Humano | Manual | Rascunho do relatório | Relatório aprovado |
-| 4 | Depósito no P02 | S04 (IA) | Automatizada em sessão autenticada | Relatório aprovado | Arquivo em `ecossistema-dtd-setis/documentos/` |
+| 2-A | Reconciliação com o ROADMAP | Claude | Manual | Entregáveis da sessão + ROADMAP.md do hub-entrada | Lista de itens a marcar ✅ ou incluir retroativamente |
+| 3 | Revisão pelo responsável | Humano | Manual | Rascunho do relatório + lista de itens ROADMAP | Relatório aprovado + itens ROADMAP validados |
+| 4 | Depósito no P02 e atualização do ROADMAP | S04 (IA) | Automatizada em sessão autenticada | Relatório aprovado + itens ROADMAP validados | Arquivo em `ecossistema-dtd-setis/documentos/` + ROADMAP.md atualizado |
 | 5 | Referência no EXECUCOES.md | S04 (IA) | Automatizada em sessão autenticada | Arquivo depositado | Linha em `ecossistema-dtd-setis/EXECUCOES.md` |
+
+### Detalhamento da Etapa 2-A — Reconciliação com o ROADMAP
+
+Antes de redigir o relatório final, o Claude deve:
+
+1. Ler o `ROADMAP.md` do `hub-entrada` (via web_fetch ou com token ativo)
+2. Para cada entregável produzido na sessão (repositório criado, skill atualizada,
+   workflow alterado, documento gerado), verificar se ele aparece no ROADMAP:
+   - **Estava previsto:** preparar marcação ✅ com data de conclusão
+   - **Não estava previsto:** preparar inclusão na seção ✅ Concluído, já marcado
+     como concluído com data — nunca omitir
+3. Consolidar a lista de alterações necessárias no ROADMAP e incluir na seção
+   "Estado antes/depois" do relatório narrativo
+4. Submeter ao mantenedor junto com o rascunho do relatório (Etapa 3)
+
+**Regra:** toda implementação real deve aparecer no ROADMAP. O planejamento prévio
+não é condição para o registro — o registro é o que torna o histórico confiável.
 
 ---
 
