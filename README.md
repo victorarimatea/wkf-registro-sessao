@@ -23,7 +23,7 @@ inicial, exploração, decisões de design, implementações, erros, correções
 
 ## Workflow associado ao projeto
 
-→ P02 [ecossistema-dtd-setis](https://github.com/victorarimatea/ecossistema-dtd-setis) (privado)
+→ P02 [ecossistema-dtd-setis](https://github.com/victorarimatea/hub-memoria) (privado)
 
 ---
 
