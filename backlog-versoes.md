@@ -1,3 +1,23 @@
+## v1.2 — 2026-06-05
+
+**Tipo de alteração:** Atualização
+**Autorizado por:** Victor Leonardo Arimatea Queiroz
+**Status do workflow:** ativo
+**Execuções afetadas:** nenhuma
+**Skills afetadas:** nenhuma
+
+**Exposição de motivos:** Com a criação do hub-aprendizagem e a expansão
+da Etapa 6-A da S04, o W03 precisava de uma etapa equivalente para sessões
+que geram diagnóstico ou decisão arquitetural. A Etapa 2-B formaliza no
+workflow de registro de sessão a captura de aprendizados consolidados —
+o mesmo mecanismo que a S04 executa via Etapa 6-A expandida.
+
+### Alterações realizadas
+- `WORKFLOW.md` v1.1 → v1.2: Etapa 2-B adicionada após Etapa 2-A —
+  identificação de aprendizado consolidado candidato ao hub-aprendizagem
+
+---
+
 # Backlog de Versões — workflow-registro-sessao
 
 ---
