@@ -1,6 +1,6 @@
 # WORKFLOW.md — Registro de Sessão de Trabalho
 
-**Versão:** v1.1 — 2026-06-04
+**Versão:** v1.2 — 2026-06-05
 **Status:** ativo
 **Responsável:** Victor Leonardo Arimatea Queiroz — Diretor de Transformação Digital
 **Repositório:** workflow-registro-sessao (W03)
@@ -85,6 +85,31 @@ Um relatório de sessão bem-sucedido satisfaz todos os critérios abaixo:
 | 3 | Revisão pelo responsável | Humano | Manual | Rascunho do relatório + lista de itens ROADMAP | Relatório aprovado + itens ROADMAP validados |
 | 4 | Depósito no P02 e atualização do ROADMAP | S04 (IA) | Automatizada em sessão autenticada | Relatório aprovado + itens ROADMAP validados | Arquivo em `ecossistema-dtd-setis/documentos/` + ROADMAP.md atualizado |
 | 5 | Referência no EXECUCOES.md | S04 (IA) | Automatizada em sessão autenticada | Arquivo depositado | Linha em `ecossistema-dtd-setis/EXECUCOES.md` |
+
+
+### Etapa 2-B — Identificação de aprendizado consolidado (hub-aprendizagem)
+
+| Campo | Valor |
+|---|---|
+| Executor | Claude |
+| Tipo | Semi-automático |
+| Entrada | Histórico completo da sessão |
+| Saída | Rascunho de aprendizado na Seção E da staging.md (se aprovado) |
+| Critério de conclusão | Varredura realizada; resultado declarado no relatório |
+
+**Quando executar:** após a Etapa 2-A, antes do relatório final.
+Obrigatória em sessões com diagnóstico, decisão arquitetural ou mudança
+estrutural. Pode ser omitida em sessões operacionais rotineiras sem
+conteúdo substantivo além das alterações em si.
+
+**Como executar:** aplicar os critérios de elegibilidade da Etapa 6-A
+da S04 (sub-seção "Segundo tipo de candidato — Conhecimento consolidado").
+Se elegível, apresentar ao mantenedor, aguardar aprovação, redigir
+imediatamente com contexto fresco e depositar na Seção E da staging.md.
+
+**Resultado no relatório:**
+- `"Aprendizado consolidado: nenhum identificado"` — ou —
+- `"Aprendizado consolidado: [título] → depositado na Seção E da staging.md"`
 
 ### Detalhamento da Etapa 2-A — Reconciliação com o ROADMAP
 
