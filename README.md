@@ -2,7 +2,7 @@
 
 **Tipo:** W — Workflow
 **ID:** W03
-**Versão:** v1.2 — 2026-06-02
+**Versão:** v1.3 — 2026-06-12
 **Status:** ativo
 **Visibilidade:** Público
 **Mantenedor:** victorarimatea
