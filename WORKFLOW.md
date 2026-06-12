@@ -13,7 +13,7 @@
 |---|---|
 | Nome do processo | Registro de Sessão de Trabalho |
 | ID | W03 |
-| Versão | v1.0 |
+| Versão | v1.3 |
 | Status | ativo |
 | Data de criação | 2026-06-02 |
 | Responsável | DTD/SETIS/SES-DF |
