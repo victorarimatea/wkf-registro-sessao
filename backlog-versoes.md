@@ -1,3 +1,29 @@
+## v1.3 — 2026-06-12 (correções pós-auditoria)
+
+**Tipo de alteração:** Correção (OP-E) — mesma versão v1.3
+**Autorizado por:** Victor Leonardo Arimatea Queiroz
+**Detectado por:** auditoria W05 independente de 2026-06-12 (SEV2-D2 e SEV2-D3)
+
+**Exposição de motivos:** A auditoria W05 de fechamento identificou duas
+divergências de propagação não capturadas na operação principal v1.3:
+- `README.md` ainda declarava v1.2 — 2026-06-02 (SEV2-D2)
+- a tabela da Seção 1 do `WORKFLOW.md` ainda declarava v1.0 no campo Versão,
+  embora o cabeçalho já estivesse em v1.3 (SEV2-D3) — mesma classe da correção
+  aplicada ao W06 na sessão anterior; reintroduzida aqui por não ter sido
+  verificada no gêmeo
+
+### Alterações realizadas
+- `README.md`: campo Versão v1.2 → v1.3
+- `WORKFLOW.md`: tabela da Seção 1, campo Versão v1.0 → v1.3 (alinhamento ao
+  cabeçalho)
+
+**Observação registrada para curadoria futura (não corrigida nesta operação,
+fora do escopo aprovado):** a tabela da Seção 1 do WORKFLOW.md ainda declara
+"Repositório de destino: P02 `ecossistema-dtd-setis`", quando o destino
+canônico atual é `hub-memoria`. Candidato a SEV3 — encaminhado ao handoff.
+
+---
+
 ## v1.3 — 2026-06-12
 
 **Tipo de alteração:** Atualização
