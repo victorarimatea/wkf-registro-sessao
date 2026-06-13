@@ -18,7 +18,7 @@
 | Data de criação | 2026-06-02 |
 | Responsável | DTD/SETIS/SES-DF |
 | Skill associada | Sem skill dedicada — gerado pelo próprio Claude ao final da sessão |
-| Repositório de destino | P02 `ecossistema-dtd-setis` (documentos/) |
+| Repositório de destino | P02 `hub-memoria` (documentos/) |
 
 ---
 
@@ -97,8 +97,8 @@ Um relatório de sessão bem-sucedido satisfaz todos os critérios abaixo
 | 2 | Redação do relatório narrativo | Claude | Manual | Contexto da sessão | Documento .md com estrutura obrigatória |
 | 2-A | Reconciliação com o ROADMAP | Claude | Manual | Entregáveis da sessão + ROADMAP.md do hub-entrada | Lista de itens a marcar ✅ ou incluir retroativamente |
 | 3 | Revisão pelo responsável | Humano | Manual | Rascunho do relatório + lista de itens ROADMAP | Relatório aprovado + itens ROADMAP validados |
-| 4 | Depósito no P02 e atualização do ROADMAP | S04 (IA) | Automatizada em sessão autenticada | Relatório aprovado + itens ROADMAP validados | Arquivo em `ecossistema-dtd-setis/documentos/` + ROADMAP.md atualizado |
-| 5 | Referência no EXECUCOES.md | S04 (IA) | Automatizada em sessão autenticada | Arquivo depositado | Linha em `ecossistema-dtd-setis/EXECUCOES.md` |
+| 4 | Depósito no P02 e atualização do ROADMAP | S04 (IA) | Automatizada em sessão autenticada | Relatório aprovado + itens ROADMAP validados | Arquivo em `hub-memoria/documentos/` + ROADMAP.md atualizado |
+| 5 | Referência no EXECUCOES.md | S04 (IA) | Automatizada em sessão autenticada | Arquivo depositado | Linha em `hub-memoria/EXECUCOES.md` |
 
 
 ### Etapa 2-B — Identificação de aprendizado consolidado (hub-aprendizagem)
@@ -149,7 +149,7 @@ não é condição para o registro — o registro é o que torna o histórico co
 | Recurso | Tipo | Papel | Link |
 |---|---|---|---|
 | skill-github-orquestracao | S04 | Depósito no P02 e atualização do EXECUCOES.md | [→](https://github.com/victorarimatea/skill-github-orquestracao) |
-| ecossistema-dtd-setis | P02 | Repositório de destino | privado |
+| hub-memoria | P02 | Repositório de destino | privado |
 
 ---
 
@@ -277,7 +277,7 @@ seções (item 9) *é* a declaração de convergência.
 
 ## Seção 8 — Referências e dependências
 
-- M01 `ecossistema-sumario` — convenções de nomenclatura
+- M01 `hub-fonte` — convenções de nomenclatura
 - S04 `skill-github-orquestracao` — depósito no ecossistema
-- P02 `ecossistema-dtd-setis` — repositório de destino
+- P02 `hub-memoria` — repositório de destino
 - W02 `workflow-registro-reuniao` — workflow irmão (reuniões vs sessões)
