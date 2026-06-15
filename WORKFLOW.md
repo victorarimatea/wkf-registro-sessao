@@ -1,6 +1,6 @@
 # WORKFLOW.md — Registro de Sessão de Trabalho
 
-**Versão:** v1.3 — 2026-06-12
+**Versão:** v1.4 — 2026-06-15
 **Status:** ativo
 **Responsável:** Victor Leonardo Arimatea Queiroz — Diretor de Transformação Digital
 **Repositório:** workflow-registro-sessao (W03)
@@ -13,7 +13,7 @@
 |---|---|
 | Nome do processo | Registro de Sessão de Trabalho |
 | ID | W03 |
-| Versão | v1.3 |
+| Versão | v1.4 |
 | Status | ativo |
 | Data de criação | 2026-06-02 |
 | Responsável | DTD/SETIS/SES-DF |
@@ -239,6 +239,16 @@ seguinte (protocolo W06, Etapa 2). Conteúdo obrigatório:
 - **Decisões adiadas** — questões de design deixadas para sessão futura
 - **Próximo tijolo concreto** — a próxima ação prevista, do ROADMAP
 
+**Diagnóstico causal das pendências (C8):**
+Para cada item no Handoff listado como pendente ou como dívida prioritária,
+incluir não apenas *o que* ficou aberto, mas *por que* ficou — qual foi a causa
+que impediu a conclusão nesta sessão (falta de token, tempo, dependência externa,
+decisão adiada). O diagnóstico causal permite que a sessão seguinte chegue já
+orientada, não apenas informada. Sem o "por quê", o Handoff informa; com o "por quê",
+o Handoff orienta.
+
+
+
 ---
 
 ### Distinção entre Bloco II e Bloco III
@@ -274,6 +284,16 @@ seções (item 9) *é* a declaração de convergência.
 | Identificação automática de sessões relevantes | ❌ Manual | Critérios formais no CONTEXTO.md para o Claude identificar autonomamente |
 
 ---
+
+## Seção 9 — Histórico de versões
+
+| Versão | Data | Tipo | Descrição |
+|---|---|---|---|
+| v1.4 | 2026-06-15 | Melhoria | Bloco III do relatório recebe instrução de diagnóstico causal (C8): handoff declara não apenas o que ficou pendente, mas por que ficou — orientando a sessão seguinte |
+| v1.3 | 2026-06-12 | Melhoria | Estrutura de três blocos formalizada (Bloco I Narrativa, Bloco II Ciclo de qualidade, Bloco III Handoff); campos `convergencia` e `residuo_tolerado` adicionados ao frontmatter |
+| v1.2 | 2026-06-07 | Melhoria | Etapa 2-A (reconciliação com ROADMAP) e Etapa 2-B (conhecimento consolidado) adicionadas |
+| v1.1 | 2026-06-04 | Melhoria | Ajustes menores de estrutura e critério de acionamento |
+| v1.0 | 2026-06-02 | Criação | Processo inaugural de registro narrativo de sessões de trabalho |
 
 ## Seção 8 — Referências e dependências
 
