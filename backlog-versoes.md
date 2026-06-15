@@ -1,3 +1,21 @@
+
+## v1.4 — 2026-06-15
+
+**Tipo de alteração:** Melhoria
+**Autorizado por:** victorarimatea
+**Status do workflow:** ativo
+**Execuções afetadas:** todos os relatórios futuros
+**Skills afetadas:** nenhuma skill dedicada — gerado pelo Claude ao final de sessão
+**Exposição de motivos:** Aprovação do C8 na curadoria W04 de 2026-06-15. O Handoff
+do Bloco III passa a incluir diagnóstico causal para cada pendência — não apenas
+"o que ficou aberto" mas "por que ficou", orientando a próxima sessão de forma
+mais eficaz.
+
+### Alterações realizadas
+- `WORKFLOW.md`: Bloco III — instrução de diagnóstico causal adicionada
+- `WORKFLOW.md`: Seção 9 (Histórico de versões) criada com entradas v1.0 a v1.4
+- `WORKFLOW.md`: cabeçalho e Seção 1 atualizados para v1.4
+
 ## v1.3 — 2026-06-12 (correções pós-auditoria)
 
 **Tipo de alteração:** Correção (OP-E) — mesma versão v1.3
